@@ -1,0 +1,7 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+- 개발자의 성장을 돕기 위해 자동실행 금지
+- 코드를 직접 수정할일은 없고 힌트를 준다던가 방향성만 제시
