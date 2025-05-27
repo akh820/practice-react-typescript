@@ -1,12 +1,26 @@
-import './App.css'
+// import './App.css'
 
-function App() {
+// function App() {
 
-  return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
-  )
+//   const name: String = "홍";
+
+//   return (
+//     <>
+//       <h1 className="react">Hello {name}!</h1>
+//     </>
+//   )
+// }
+
+// export default App
+
+import React, { Component } from 'react';
+import './App.css';
+
+class App extends Component {
+  render() {
+    const name: String = "홍";
+    return <div className="react">Hello, {name}!</div>;
+  }
 }
 
-export default App
+export default App;
