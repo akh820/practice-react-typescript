@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <h1 className="react">Hello {name}!</h1>
-      <MyComponent name="길동쓰로 설정함~"/> {/* props 전달 */}
+      <MyComponent name="길동쓰로 설정함~"> {/* props 전달 */}
+        <p>children 전달</p>
+      </MyComponent>
     </>
   )
 }
