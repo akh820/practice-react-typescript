@@ -1,26 +1,16 @@
-// import './App.css'
+import './App.css'
+import MyComponent from './MyComponent';
 
-// function App() {
+function App() {
 
-//   const name: String = "홍";
+  const name: String = "홍길동";
 
-//   return (
-//     <>
-//       <h1 className="react">Hello {name}!</h1>
-//     </>
-//   )
-// }
-
-// export default App
-
-import React, { Component } from 'react';
-import './App.css';
-
-class App extends Component {
-  render() {
-    const name: String = "홍";
-    return <div className="react">Hello, {name}!</div>;
-  }
+  return (
+    <>
+      <h1 className="react">Hello {name}!</h1>
+      <MyComponent name="길동쓰로 설정함~"/> {/* props 전달 */}
+    </>
+  )
 }
 
-export default App;
+export default App
