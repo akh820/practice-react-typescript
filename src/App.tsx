@@ -1,6 +1,7 @@
 import './App.css'
 import MyComponent from './MyComponent';
 import Say from './Say';
+import EventPractice from './EventPractice';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <p>children 전달</p>
       </MyComponent>
       <Say />
+      <EventPractice />
     </>
   )
 }
