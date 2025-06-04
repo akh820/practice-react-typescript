@@ -1,5 +1,6 @@
 import './App.css'
 import MyComponent from './MyComponent';
+import Say from './Say';
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <MyComponent name="길동쓰로 설정함~"> {/* props 전달 */}
         <p>children 전달</p>
       </MyComponent>
+      <Say />
     </>
   )
 }
