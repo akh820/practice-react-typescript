@@ -1,22 +1,18 @@
-import './App.css'
-import MyComponent from './MyComponent';
-import Say from './Say';
-import EventPractice from './EventPractice';
+import React, { Component } from 'react';
+import ValidationSample from './ValidationSample';
+import RefSample from './RefSample';
+import WhenToUseRef from './WhenToUseRef';
 
-function App() {
-
-  const name: String = "홍길동";
-
-  return (
-    <>
-      <h1 className="react">Hello {name}!</h1>
-      <MyComponent name="길동쓰로 설정함~"> {/* props 전달 */}
-        <p>children 전달</p>
-      </MyComponent>
-      <Say />
-      <EventPractice />
-    </>
-  )
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <ValidationSample />
+        <RefSample />
+        <WhenToUseRef />
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
